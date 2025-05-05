@@ -1,0 +1,11 @@
+def vowel_count(str):
+	count = 0
+	vowel = set("aeiouAEIOU")
+	for char in str:
+		if char in vowel:
+	# Write your code here to count the vowels
+			count +=1
+	return count
+str = input()
+vowel_count(str)
+print(vowel_count(str))
